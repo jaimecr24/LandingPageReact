@@ -13,6 +13,7 @@ import Home from "./component/home.jsx";
 import Navbar from "./component/navbar.jsx";
 import Jumbotron from "./component/jumbotron.jsx";
 import Card from "./component/card.jsx";
+import Footer from "./component/footer.jsx";
 
 const opcMenu = ["Home", "About", "Services", "Contact"];
 const opcFirst = "Start Bootstrap";
@@ -53,6 +54,7 @@ ReactDOM.render(
 					textBtn="Find Out More!"
 				/>
 			</div>
+			<Footer text="Copyright &copy; Your Website 2021" />
 		</div>
 	</div>,
 	document.querySelector("#app")
