@@ -9,7 +9,6 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import Home from "./component/home.jsx";
 import Navbar from "./component/navbar.jsx";
 import Jumbotron from "./component/jumbotron.jsx";
 import Card from "./component/card.jsx";
