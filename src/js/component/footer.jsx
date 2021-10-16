@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Footer = props => {
 	return (
-		<div className="w-100 bg-dark text-white p-3 m-5">
+		<div className="bg-dark text-white p-3">
 			<p className="text-center">{props.text}</p>
 		</div>
 	);

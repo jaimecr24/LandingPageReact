@@ -13,7 +13,7 @@ const Navbar = props => {
 	});
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div className="container-fluid mx-5">
+			<div className="container-fluid px-5">
 				<a className="navbar-brand" href="#">
 					{props.firstItem}
 				</a>
