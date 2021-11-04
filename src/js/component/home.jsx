@@ -14,15 +14,26 @@ const textRndCard =
 
 const Home = () => {
 	return (
-		<div className="container">
-			<Navbar firstItem={opcFirst} otherItems={opcMenu} />
-			<div>
+		<div
+			className="container-fluid p-0 ms-auto"
+			style={{ height: "100vh", overflowY: "hidden" }}>
+			<div style={{ maxHeight: "5%", minHeight: "5%" }}>
+				<Navbar firstItem={opcFirst} otherItems={opcMenu} />
+			</div>
+			<div
+				style={{
+					maxHeight: "88%",
+					minHeight: "88%",
+					overflowY: "auto"
+				}}>
 				<Jumbotron
 					title="A Warm Welcome!"
 					text={textRnd}
 					textBtn="Call to action!"
 				/>
-				<div className="row px-3 py-5">
+				<div
+					className="row px-3 py-5 mx-auto"
+					style={{ maxWidth: "99vw" }}>
 					<Card
 						title="Card title"
 						text={textRndCard}
@@ -44,6 +55,8 @@ const Home = () => {
 						textBtn="Find Out More!"
 					/>
 				</div>
+			</div>
+			<div style={{ maxHeight: "5%", minHeight: "5%" }}>
 				<Footer text="Copyright &copy; Your Website 2021" />
 			</div>
 		</div>

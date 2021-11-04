@@ -2,11 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Card = props => {
-	//	let styleCss = {
-	//		color: "red"
-	//	};
 	return (
-		<div className="card p-0 col mx-2" /*style={styleCss}*/>
+		<div className="card p-0 col mx-2">
 			<img src="https://fakeimg.pl/500x325/" className="card-img-top" />
 			<div className="card-body">
 				<h5 className="card-title">{props.title}</h5>
