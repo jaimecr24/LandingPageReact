@@ -17,13 +17,13 @@ const Home = () => {
 		<div
 			className="container-fluid p-0 ms-auto"
 			style={{ height: "100vh", overflowY: "hidden" }}>
-			<div style={{ maxHeight: "5%", minHeight: "5%" }}>
+			<div style={{ maxHeight: "5%" }}>
 				<Navbar firstItem={opcFirst} otherItems={opcMenu} />
 			</div>
 			<div
 				style={{
 					maxHeight: "88%",
-					minHeight: "88%",
+					minHeight: "88.6%",
 					overflowY: "auto"
 				}}>
 				<Jumbotron
@@ -56,7 +56,7 @@ const Home = () => {
 					/>
 				</div>
 			</div>
-			<div style={{ maxHeight: "5%", minHeight: "5%" }}>
+			<div style={{ maxHeight: "5%" }}>
 				<Footer text="Copyright &copy; Your Website 2021" />
 			</div>
 		</div>
